@@ -1,0 +1,48 @@
+.filterApp{
+  font-size: 22px;
+  font-weight: 500;
+  margin: 50px 10% 0 10%;
+  width: 80%;
+}
+
+.searchBoxWrapper{
+  /* width: 80%;
+  background:#674906;
+  padding: 5px 5px;
+  border-radius: 15px;
+  box-shadow: 5px 3px #ccc; */
+  margin-bottom: 20px;
+}
+
+.searchBox{
+  padding: 10px 20px 10px 20px;
+  width: 94%;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #777;
+  
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+.searchBox{
+     width: 91%
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+  .searchBoxWrapper{
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background: white;
+    box-shadow: 0px 0px white;
+    width: 90%;
+  }
+
+  .searchBox{
+       border: 1px solid #580b6b;
+       display: block;
+       margin: 0;
+    }
+  }
